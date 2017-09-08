@@ -1,0 +1,77 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #e2e6ea; }
+
+#container {
+  margin: 15px;
+  border: solid 2px grey;
+  background-color: white;
+  height: 400px;
+  transition: background-color ease-out .6s; }
+
+nav.navbar {
+  background-color: #34495e; }
+  nav.navbar a {
+    color: white; }
+
+#elem {
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  display: inline-block;
+  /* This makes things *much* easier */
+  box-sizing: border-box;
+  border: solid transparent 3px;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  transition: border-color ease-out .4s; }
+  #elem:hover {
+    border-color: black; }
+
+#list-fonts {
+  max-height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border: solid grey 1px;
+  padding: 5px; }
+  #list-fonts p {
+    border-bottom: solid grey 1px;
+    cursor: pointer; }
+
+#colors p {
+  text-align: center; }
+#colors #text-color .col-md-3,
+#colors #text-color .col-md-4, #colors #bg-color .col-md-3,
+#colors #bg-color .col-md-4 {
+  padding: 3px; }
+  #colors #text-color .col-md-3 .color, #colors #text-color .col-md-3 .bg-color,
+  #colors #text-color .col-md-4 .color,
+  #colors #text-color .col-md-4 .bg-color, #colors #bg-color .col-md-3 .color, #colors #bg-color .col-md-3 .bg-color,
+  #colors #bg-color .col-md-4 .color,
+  #colors #bg-color .col-md-4 .bg-color {
+    height: 32px;
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity ease-out .4s; }
+    #colors #text-color .col-md-3 .color:hover, #colors #text-color .col-md-3 .bg-color:hover,
+    #colors #text-color .col-md-4 .color:hover,
+    #colors #text-color .col-md-4 .bg-color:hover, #colors #bg-color .col-md-3 .color:hover, #colors #bg-color .col-md-3 .bg-color:hover,
+    #colors #bg-color .col-md-4 .color:hover,
+    #colors #bg-color .col-md-4 .bg-color:hover {
+      opacity: .7; }
+
+input[type="color"] {
+  width: 100%;
+  height: 32px; }
+
+#size-font {
+  width: 100%;
+  vertical-align: middle; }
+
+#download {
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
